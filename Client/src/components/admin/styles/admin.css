@@ -1,0 +1,280 @@
+.mentorship-profile-detail a {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.poifile-details {
+  display: flex;
+  align-items: center;
+}
+.poifile-details-cover {
+  text-align: justify;
+}
+.poifile-details img {
+  width: 100%;
+  max-width: 80px;
+}
+.share-details-2 p {
+  text-align: justify;
+  font-size: 15px;
+  font-weight: 500;
+}
+.mentorship-profile-detail {
+  margin-top: 20px;
+  padding: 10px;
+  border-radius: 2px;
+  transition: 0.3s;
+}
+.mentorship-profile-detail a .poifile-details-cover p span {
+  font-size: 10px;
+  padding: 3px 0px;
+  line-height: 1;
+  width: 66px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 3px;
+  background: #3ad2a8;
+  color: #fff;
+}
+.mentorship-profile-detail a .poifile-details-cover span {
+  color: #000;
+}
+.details-link a {
+  font-size: 15px;
+  margin-left: 20px;
+  color: #39d2a7;
+}
+
+.details-link {
+  text-align: end;
+  margin-top: 30px;
+}
+.details-message-cover p {
+  font-size: 15px;
+  margin-bottom: 7px;
+}
+.details-message-cover span {
+  text-align: justify;
+  font-size: 15px;
+  width: 100%;
+  display: inline-block;
+}
+.details-message-cover {
+  margin: 27px 0;
+}
+
+.eWrBEk {
+  position: fixed;
+  left: 0px;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px 0px;
+  height: 100%;
+  padding: 5px;
+}
+.dhAbpN {
+  height: auto;
+  width: 100%;
+  margin-bottom: 70px;
+  max-width: 85px;
+}
+.layWKW {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 38px;
+}
+.layWKW > i {
+  font-size: 40px;
+  color: #8080809c;
+}
+.layWKW.active > i {
+  color: #69d5b1;
+}
+.bfSpmb {
+  font-size: 15px;
+  color: rgb(74, 74, 74);
+}
+.feLfRC {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.account-right-side {
+  padding-left: 120px;
+  width: 100%;
+  background: radial-gradient(
+    circle,
+    rgb(165, 252, 219) 0%,
+    rgb(18, 195, 149) 100%
+  );
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  height: 268px;
+}
+.accont-home h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  padding: 40px;
+  padding-left: 100px;
+}
+.profile-details {
+  text-align: center;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px 0px;
+  padding: 15px;
+  height: 100%;
+}
+.profile-details img {
+  width: 100%;
+  max-width: 90px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+.profile-details p {
+  color: rgb(74, 74, 74);
+  line-height: 17px;
+  margin: 1% 0px 0px;
+  border-bottom: 1px solid #cccc;
+  padding-bottom: 20px;
+}
+.poifile-details-cover p {
+  border: none;
+  margin-bottom: 5px;
+  padding: 0;
+}
+.details-message-cover span p {
+  padding: 0;
+  border: none;
+}
+.details-message-cover p {
+  padding: 0;
+  border: none;
+}
+.share-details-2 p:nth-child(2) {
+  padding: 0;
+  border: none;
+  margin-top: 40px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+.profile-details h2 {
+  color: rgb(74, 74, 74);
+  font-weight: bold;
+  line-height: 26px;
+  margin: 0px;
+  margin-bottom: 10px;
+}
+.share-details a i {
+  color: rgb(23 154 111);
+}
+
+.share-details {
+  position: absolute;
+  right: 40px;
+  top: 30px;
+}
+.detail-name a:first-child {
+  color: rgb(74, 74, 74);
+  line-height: 1.21429rem;
+  font-weight: bold;
+  margin: 0px;
+}
+.detail-name a:nth-child(2) {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #000;
+}
+.detail-name {
+  padding: 20px 0;
+}
+.profiles-details-cover ul li {
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  align-items: flex-start;
+  margin: 10px 0;
+}
+.profiles-details-cover ul li svg {
+  width: 100%;
+  max-width: 26px;
+  margin-right: 15px;
+}
+.accound-cover {
+  margin-top: -60px;
+}
+.details-message-cover ul {
+  padding-top: 7px;
+}
+
+.details-message-cover ul li {
+  text-align: left;
+  padding: 2px 0;
+}
+/* approve and reject button  */
+button.approve-button,
+button.reject-button {
+  border: none;
+  outline: none;
+  background: #36d1a6;
+  font-size: 16px;
+  color: #fff;
+  font-weight: 500;
+  padding: 7px 13px;
+  line-height: 1.1;
+  border-radius: 3px;
+  margin-right: 10px;
+  transition: 0.3s;
+}
+button.reject-button {
+  background: red;
+  color: #fff;
+  border: 1px solid red;
+}
+button.reject-button:hover {
+  background: #c81010;
+}
+button.approve-button:hover {
+  background: none;
+  border: 1px solid #36d1a6;
+  color: #36d1a6;
+}
+.mentorship-profile-detail:hover {
+  background: #4ad9b04d;
+}
+.reject-reason textarea {
+  width: 100%;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: none;
+}
+.reject-reason label {
+  font-size: 14px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+button.btn.btn-primary {
+  background: #36d1a6;
+  border: none;
+}
+
+.doughnut-chart-container {
+  position: relative;
+}
+
+.chart-title {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}

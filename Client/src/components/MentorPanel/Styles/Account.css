@@ -1,0 +1,169 @@
+.row > *:not([class*="col-"]) {
+  width: auto;
+}
+
+.eWrBEk {
+  position: fixed;
+  left: 0px;
+  background-color: rgb(255, 255, 255);
+  overflow-x: hidden;
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 2px 4px 0px;
+  height: 100%;
+  padding: 5px;
+}
+.dhAbpN {
+  height: auto;
+  width: 100%;
+  margin-bottom: 70px;
+  max-width: 85px;
+}
+.layWKW {
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 38px;
+}
+.layWKW > i {
+  font-size: 40px;
+  color: #8080809c;
+}
+.layWKW.active > i {
+  color: #69d5b1;
+}
+.bfSpmb {
+  font-size: 15px;
+  color: rgb(74, 74, 74);
+}
+.feLfRC {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.account-right-side {
+  padding-left: 120px;
+  width: 100%;
+  background: radial-gradient(
+    circle,
+    rgb(165, 252, 219) 0%,
+    rgb(18, 195, 149) 100%
+  );
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  height: 268px;
+}
+.accont-home h2 {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  padding: 40px;
+  padding-left: 100px;
+}
+.profile-details {
+  text-align: center;
+  position: relative;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 2px 4px 0px;
+  padding: 15px;
+  height: 100%;
+}
+.profile-details img {
+  width: 100%;
+  max-width: 100px;
+}
+.profile-details p {
+  color: rgb(74, 74, 74);
+  line-height: 17px;
+  margin: 1% 0px 0px;
+}
+
+.profile-details h2 {
+  color: rgb(74, 74, 74);
+  font-weight: bold;
+  line-height: 26px;
+  margin: 0px;
+}
+.share-details a i {
+  color: rgb(23 154 111);
+}
+
+.share-details {
+  position: absolute;
+  right: 40px;
+  top: 30px;
+}
+.detail-name a:first-child {
+  color: rgb(74, 74, 74);
+  line-height: 1.21429rem;
+  font-weight: bold;
+  margin: 0px;
+}
+.detail-name a:nth-child(2) {
+  font-size: 13px;
+  text-decoration: underline;
+  color: #000;
+}
+.detail-name {
+  padding: 20px 0;
+}
+.profiles-details-cover ul li {
+  text-align: left;
+  display: flex;
+  align-items: flex-start;
+  align-items: flex-start;
+  margin: 10px 0;
+}
+.profiles-details-cover ul li svg {
+  width: 100%;
+  max-width: 26px;
+  margin-right: 15px;
+}
+.accound-cover {
+  margin-top: -60px;
+}
+
+.profiles-details-cover ul li p {
+  border: none;
+}
+
+/* flex */
+
+.flex-container {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  border: 2px solid yellow;
+}
+
+.flex-child:first-child {
+  margin-right: 20px;
+}
+
+/* simple text - p */
+
+.simpletext {
+  border: none;
+}
+
+.likes-card {
+  background-color: #30cea3;
+  color: white;
+  padding: 10px;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 25px;
+}
+
+.likes-card h3 {
+  margin: 0;
+  font-size: 18px;
+}
+
+.likes-count {
+  font-size: 24px;
+  font-weight: bold;
+}
